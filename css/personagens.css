@@ -1,0 +1,85 @@
+center {
+    color: white;
+    background-color:black;
+}
+
+#borda_img {
+    border-style: solid;
+    border-width: 9px;
+    border-color: blueviolet;
+}
+
+.classe1 {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+.classe1 div{
+    margin-left: auto;
+    margin-right: 3rem;
+}
+.classe1 div img figcaption{
+    text-align: center;
+}
+
+.classe2 {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    padding-top:10px;
+    padding-right: 10px;
+}
+.classe2 div{
+    margin-left: auto;
+    margin-right: 3rem;
+}
+.classe2 div img figcaption{
+    text-align: center;
+}
+
+.classe3 {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    padding-top:10px;
+    padding-right: 10px;
+}
+.classe3 div{
+    margin-left: auto;
+    margin-right: 3rem;
+}
+.classe3 div img figcaption{
+    text-align: center;
+}
+
+#menu-h {
+    list-style-type: none;
+    padding: 0%;
+    background-color: rgb(255, 253, 253);
+    text-align: center;
+}
+
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    display: inline;
+}
+
+#menu-h li a:hover{
+    background-color:blueviolet;
+}
+
+* {
+    padding: 0;
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 20px;
+}
